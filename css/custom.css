@@ -1,0 +1,234 @@
+.designs {
+    user-select: none;
+}
+
+.portfolio-slider-wrap {
+    user-select: none;
+}
+
+.reviews-slider-wrap {
+    user-select: none;
+}
+
+.popup-transparency {
+    user-select: none;
+}
+
+/* module telephones.js start */
+
+.custom-header-contacts__phone-number-accord {
+    top: 25px;
+}
+
+.custom-header-contacts__phone-number-accord a {
+    opacity: 1;
+}
+
+.custom-header-contacts__arrow {
+    transform: rotate(180deg);
+}
+
+/* module telephones.js end */
+
+/* module formula.js problems.js start */
+
+/* @override Исправление баги когда active-item меняет font-size */
+
+.formula-item {
+    font-size: 19px;
+}
+
+.custom-up-tooltip-item-popup {
+    opacity: 1;
+    visibility: visible;
+}
+
+.custom-up-problems-item-popup {
+    padding: 40px 20px 0;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    top: -450%;
+}
+
+.custom-up-problems-item-popup:before {
+    transform: rotate(0deg);
+}
+
+.custom-down-tooltip-item {
+    z-index: initial;
+}
+
+.custom-down-tooltip-item-popup {
+    padding: 40px 20px 0;
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    top: 105%;
+}
+
+.custom-down-tooltip-item-popup:before {
+    transform: rotate(180deg);
+}
+
+.custom-down-tooltip-item__icon {
+    position: initial;
+}
+
+.custom-down-tooltip-item__icon span {
+    top: initial;
+}
+
+/* module formula.js problems.js end */
+
+/* module sliderTooltip (formula.js) start */
+
+.formula-slider {
+    user-select: none;
+    display: flex;
+    align-items: flex-start;
+    margin: 102px auto 0;
+    overflow: hidden;
+    max-width: calc(174px * 3);
+}
+
+@media (max-width: 575px) {
+    .formula-slider {
+        min-height: 265px;
+        justify-content: center;
+        padding-left: 420px;
+    }
+}
+
+.svg-wrap svg {
+    pointer-events: none;
+}
+
+/* module sliderTooltip (formula.js).js formula.js end */
+
+/* module sliderTooltip (problems.js).js problems.js start */
+
+.problems-slider {
+    user-select: none;
+    display: flex;
+    align-items: flex-start;
+    margin: 102px auto 0;
+    overflow: hidden;
+}
+
+.custom-active-item {
+    width: 110px;
+    top: 115px;
+}
+
+@media (max-width: 575px) {
+    .problems-slider {
+        min-height: 265px;
+        justify-content: center;
+        padding-left: 260px;
+    }
+    .custom-active-item {
+        width: 160px;
+        top: 35px;
+    }
+}
+
+/* module sliderTooltip.js problems.js end */
+
+/*module portfolio.js start*/
+
+.portfolio-slider__wrapper {
+    display: flex;
+}
+
+@media (max-width: 1140px) {
+    .portfolio-slider {
+        width: 94%;
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio-slider {
+        width: 82%;
+    }
+}
+
+/*module portfolio.js end*/
+
+/* module documents.js start */
+
+@media (max-width: 1090px) {
+    .transparency-slider.row {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        max-width: 453px;
+        margin: 0 auto;
+    }
+}
+
+/* module documents.js end */
+
+/*module sliderRepairTypes.js start*/
+
+@media (max-width: 1090px) {
+    .transparency-slider.row {
+        max-width: 343px;
+    }
+    .transparency-item {
+        width: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .transparency-slider.row {
+        max-width: 453px;
+    }
+}
+
+.preview-block__item img {
+    width: 156px;
+    height: 102px;
+}
+
+/*module sliderRepairTypes.js end*/
+
+/*module carousel.js start*/
+
+@media (max-width: 1024px) {
+    .partners-slider__slide {
+        max-width: 325.7px;
+    }
+}
+
+/*module carousel.js end*/
+
+/*sliders mobile start*/
+
+.slider-arrow-tablet-mobile_left {
+    left: -5%;
+}
+
+.slider-arrow-tablet-mobile_left path {
+    stroke: #000;
+}
+
+.slider-arrow-tablet-mobile_right {
+    right: -4%;
+}
+
+.slider-arrow-tablet-mobile_right path {
+    stroke: #000;
+}
+
+/*sliders mobile end*/
+
+/*module accordion.js start*/
+
+.custom-msg {
+    opacity: 1;
+    max-height: 1000px;
+    transform: none;
+}
+
+/*module accordion.js end*/
