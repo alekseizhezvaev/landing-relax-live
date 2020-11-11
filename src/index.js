@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //**Модальное окно */
     popupPrivacy();
 
-    /**Подсказка */
+    //*Подсказка */
     formula();
 
     //**Слайдер виды ремонта */
@@ -103,6 +103,6 @@ document.addEventListener('DOMContentLoaded', () => {
     //**Отправка форм */
     sendForm();
 
-    /**Подгрузка данных для "Полный список услуг и цен" */
+    //*Подгрузка данных для "Полный список услуг и цен" */
     repairDb();
 });
