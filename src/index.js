@@ -1,5 +1,4 @@
 'use strict';
-
 import '@babel/polyfill';
 import 'nodelist-foreach-polyfill';
 import 'formdata-polyfill';
@@ -7,9 +6,6 @@ import 'es6-promise';
 import 'fetch-polyfill';
 import elementClosest from 'element-closest';
 import smoothscroll from 'smoothscroll-polyfill';
-elementClosest(window);
-smoothscroll.polyfill();
-
 import telephones from './modules/telephones';
 import burgerMenu from './modules/burgerMenu';
 import valid from './modules/valid';
@@ -33,76 +29,54 @@ import repairDb from './modules/repayrDb';
 import popupPortfolio from './modules/popupPortfolio';
 import sliderPopupPortfolio from './modules/sliderPopupPortfolio';
 import sliderPortfolioMobile from './modules/sliderPortfolioMobile';
-
+elementClosest(window);
+smoothscroll.polyfill();
 
 document.addEventListener('DOMContentLoaded', () => {
-
     //**Слайдер для табов*/
     SliderTabs();
-
     //**Список телефонов */
     telephones();
-
     //**Бургер меню */
     burgerMenu();
-
     //**Маска для телефона */
     valid();
-
     //**Модальное окно */
     popupPrivacy();
-
-    /**Подсказка */
+    //**Секция formula */
     formula();
-
     //**Слайдер виды ремонта */
     sliderRepairTypes();
-
     //**Слайдер портфолио */
     sliderPortfolio();
-
     //**Модальное окно с портфолио */
     popupPortfolio();
-
     //**Слайдер модального окна портфолио */
     sliderPopupPortfolio();
-
     //**Слайдер модального окна портфолио (Мобильная версия) */
     sliderPortfolioMobile();
-
     //**Модальное окно портфолио */
     popupDocuments();
-
-    //**Проблемы */
+    //**Секция problems */
     problems();
-
-    //**Документы */
+    //**Секция documents */
     documents();
-
     //**Дизайнерские решения */
     designs();
-
-    //**Клиенты */
+    //**Секция reviews */
     reviews();
-
     //**Модальное окно дизайнов */
     popupDesigns();
-
     //**Модальное окно консультации ( При клике на кнопку "Проконсультироваться") */
     popupConsulation();
-
     //**Табы "Как мы работаем" */
     scheme();
-
     //**Аккордеон */
     accordion();
-
-    //**Слайдер карусел "компании" */
+    //**Слайдер карусель "компании" */
     carousel();
-
     //**Отправка форм */
     sendForm();
-
-    /**Подгрузка данных для "Полный список услуг и цен" */
+    //**Подгрузка данных для раздела "Полный список услуг и цен" */
     repairDb();
 });
