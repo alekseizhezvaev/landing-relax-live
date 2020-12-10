@@ -1,4 +1,5 @@
 'use strict';
+
 const sendForm = () => {
     const forms = document.querySelectorAll('form');
     const popupThank = document.querySelector('.popup-thank');

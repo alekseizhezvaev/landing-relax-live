@@ -1,5 +1,4 @@
 'use strict';
-
 import popupRepairTypes from './popupRepairTypes';
 
 const burgerMenu = () => {

@@ -1,5 +1,4 @@
 'use strict';
-
 const popupConsulation = () => {
 
     const popupConsultation = document.querySelector('.popup-consultation');

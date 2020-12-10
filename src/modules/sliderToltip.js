@@ -1,4 +1,5 @@
 'use strict';
+
 const sliderTooltip = (sliderItems, rightArrow, leftArrow) => {
     /** Slider */
     const slider = document.querySelector(sliderItems);

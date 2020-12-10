@@ -1,7 +1,6 @@
 'use strict';
 
 const maskPhone = (elem, masked = '+7 (___) ___-__-__') => { //маска для валидации номера телефона
-
     const mask = (event) => {
         const keyCode = event.keyCode;
         const template = masked,

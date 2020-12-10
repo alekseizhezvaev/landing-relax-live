@@ -1,5 +1,4 @@
 'use strict';
-
 import sliderUniversal from './sliderUniversal';
 
 const designs = () => {
