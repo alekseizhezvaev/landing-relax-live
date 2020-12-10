@@ -1,4 +1,5 @@
 'use strict';
+
 const accordion = () => {
     const faq = document.getElementById('faq');
     const msg = document.querySelectorAll('.msg');

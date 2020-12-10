@@ -1,6 +1,5 @@
 'use strict';
 const popupConsulation = () => {
-
     const popupConsultation = document.querySelector('.popup-consultation');
 
     document.querySelector('body').addEventListener('click', (event) => {
