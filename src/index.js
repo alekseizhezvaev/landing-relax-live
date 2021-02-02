@@ -35,48 +35,69 @@ smoothscroll.polyfill()
 document.addEventListener("DOMContentLoaded", () => {
   //**Слайдер для табов*/
   SliderTabs()
+
   //**Список телефонов */
   telephones()
+
   //**Бургер меню */
   burgerMenu()
+
   //**Маска для телефона */
   valid()
+
   //**Модальное окно */
   popupPrivacy()
+
   //**Секция formula */
   formula()
+
   //**Слайдер виды ремонта */
   sliderRepairTypes()
+
   //**Слайдер портфолио */
   sliderPortfolio()
+
   //**Модальное окно с портфолио */
   popupPortfolio()
+
   //**Слайдер модального окна портфолио */
   sliderPopupPortfolio()
+
   //**Слайдер модального окна портфолио (Мобильная версия) */
   sliderPortfolioMobile()
+
   //**Модальное окно портфолио */
   popupDocuments()
+
   //**Секция problems */
   problems()
+
   //**Секция documents */
   documents()
+
   //**Дизайнерские решения */
   designs()
+
   //**Секция reviews */
   reviews()
+
   //**Модальное окно дизайнов */
   popupDesigns()
+
   //**Модальное окно консультации ( При клике на кнопку "Проконсультироваться") */
   popupConsulation()
+
   //**Табы "Как мы работаем" */
   scheme()
+
   //**Аккордеон */
   accordion()
   //**Слайдер карусель "компании" */
   carousel()
+
   //**Отправка форм */
   sendForm()
+  
   //**Подгрузка данных для раздела "Полный список услуг и цен" */
   repairDb()
 })
